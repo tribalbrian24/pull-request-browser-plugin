@@ -96,7 +96,7 @@ lists need **Load all** first. Open choices and defaults are tracked outside thi
 
 - `pnpm install`, then `pnpm dev` (opens Chrome with the extension loaded; a kept profile preserves your saved selectors
   and GitHub login), or `pnpm build` and Load unpacked from `dist/chrome-mv3`. Firefox: `pnpm build:firefox`.
-- `pnpm test` runs the tests; `pnpm compile` type-checks. Builds keep source maps and are not minified.
+- `pnpm test` runs the tests, `pnpm compile` type-checks and `pnpm lint` runs ESLint. Builds keep source maps and are not minified.
 - If something breaks after a GitHub change: popup, Doctor, **Copy diagnostics**, paste it to Claude, or follow "Needs
   fixing" in the DevTools sidebar.
 
